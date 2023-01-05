@@ -12,6 +12,7 @@ public class main {
         System.out.println("** Sinetian's Toolkit **");
         System.out.println("************************");
         System.out.println("版本：Stable v2.3");
+        System.out.println("这是Java-Toolkit的初代版本，仅仅开发了计算器。 \n 如果你愿意看看我的代码，你一定会承认Java的开发难度比C++高。");
         return;
     }
     public static double cal(int x , int y) {
@@ -21,8 +22,13 @@ public class main {
         main.sysinfo();
         int x , y , op;
         Scanner scanner = new Scanner(System.in);
-        System.out.print("可用功能：\n 1.计算器 2.系统信息 3.退出");
-        op = scanner.nextInt();
-
+        while(1) {
+            System.out.println("可用功能：\n 1.计算器 \n 2.系统信息 \n 3.退出");
+            System.out.print("请输入序号：");
+            op = scanner.nextInt();
+            switch(op) {
+                
+            }
+        }
     }
 }
