@@ -27,7 +27,9 @@ public class main {
             System.out.print("请输入序号：");
             op = scanner.nextInt();
             switch(op) {
-                
+                case 1: {
+                  
+                }
             }
         }
     }
