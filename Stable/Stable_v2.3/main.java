@@ -22,13 +22,16 @@ public class main {
         main.sysinfo();
         int x , y , op;
         Scanner scanner = new Scanner(System.in);
-        while(1) {
+        while(true) {
             System.out.println("可用功能：\n 1.计算器 \n 2.系统信息 \n 3.退出");
             System.out.print("请输入序号：");
             op = scanner.nextInt();
             switch(op) {
                 case 1: {
-                  
+                  System.out.print("请输入第一个数字：");
+                  x = scanner.nextInt();
+                  System.out.print("请输入第二个数字：");
+                  y = scanner.nextInt();
                 }
             }
         }
