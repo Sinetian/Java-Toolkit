@@ -47,7 +47,7 @@ public class main {
                   main.sysinfo();
                 }
                 case 3: {
-                  System.out.
+                  return;
                 }
             }
         }
