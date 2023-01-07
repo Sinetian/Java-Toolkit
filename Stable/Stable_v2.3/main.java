@@ -17,7 +17,7 @@ public class main {
         System.out.println("这是Java-Toolkit的初代版本，仅仅开发了计算器。 \n 如果你愿意看看我的代码，你一定会承认Java的开发难度比C++高。");
         return;
     }
-    public static double cal(int x , int y) {
+    public static double cal(int x , int y , int op) {
         switch(op) {
 
         }
@@ -40,8 +40,8 @@ public class main {
                   System.out.print("请输入第二个数字：");
                   y = scanner.nextInt();
                   System.out.print("请输入运算：");
-                  op = scanner.nextLine();
-                  System.out.printf("%.3f" , main.cal(x , y , op));
+                  calu = scanner.nextLine();
+                  System.out.println(main.cal(x , y , op));
                 }
                 case 2: {
                   main.sysinfo();
