@@ -1,6 +1,5 @@
-import java.util.Formatter;
 import java.util.Scanner;
-public class main {
+public class program {
     public static void sysinfo() {
         System.out.println("************************");
         System.out.println("**    ********        **");
@@ -19,13 +18,14 @@ public class main {
     }
     public static double cal(int x , int y , int op) {
         switch(op) {
-
+          case 1: {
+            
+          }
         }
     }
     public static void main(String[] args) {
-        main.sysinfo();
+        program.sysinfo();
         int x , y , op;
-        char calu;
         String temp;
         Scanner scanner = new Scanner(System.in);
         while(true) {
@@ -41,11 +41,12 @@ public class main {
                   System.out.print("请输入第二个数字：");
                   y = scanner.nextInt();
                   System.out.print("请输入运算：");
-                  calu = scanner.nextChar();
-                  System.out.println(main.cal(x , y , op));
+                  temp = scanner.nextLine();
+                  temp.charAt(0);
+                  System.out.println(program.cal(x , y , op));
                 }
                 case 2: {
-                  main.sysinfo();
+                  program.sysinfo();
                 }
                 case 3: {
                   return;
