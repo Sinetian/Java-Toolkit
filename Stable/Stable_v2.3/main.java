@@ -26,6 +26,7 @@ public class main {
         main.sysinfo();
         int x , y , op;
         char calu;
+        String temp;
         Scanner scanner = new Scanner(System.in);
         while(true) {
             System.out.println("可用功能：\n 1.计算器 2.系统信息 3.退出");
@@ -40,7 +41,7 @@ public class main {
                   System.out.print("请输入第二个数字：");
                   y = scanner.nextInt();
                   System.out.print("请输入运算：");
-                  calu = scanner.nextLine();
+                  calu = scanner.nextChar();
                   System.out.println(main.cal(x , y , op));
                 }
                 case 2: {
