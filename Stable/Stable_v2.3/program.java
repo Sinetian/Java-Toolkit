@@ -59,15 +59,18 @@ public class program {
                     System.out.print("请输入运算：");
                     calu = scanner.nextLine();
                     System.out.println(program.cal(x , y , calu));
+                    break;
                   }
                   case 2: {
                     program.sysinfo();
+                    break;
                   }
                   case 3: {
                     return;
                   }
-                  default:
+                  default: {
                       throw new java.lang.IllegalStateException("Unexpected value: " + op);
+                  }
               }
           }
         }
