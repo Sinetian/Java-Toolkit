@@ -19,23 +19,24 @@ public class program {
     }
     public static double cal(Double x , Double y , String op) {
         switch(op) {
-          case "+": {
-            return x + y;
-          }
-          case "-": {
-            return x - y;
-          }
-          case "*": {
-            return x * y;
-          }
-          case "/": {
-            return x / y;
-          }
-          case "%": {
-            return x % y;
-          }
+            case "+": {
+                return x + y;
+            }
+            case "-": {
+                return x - y;
+            }
+            case "*": {
+                return x * y;
+            }
+            case "/": {
+                return x / y;
+            }
+            case "%": {
+                return x % y;
+            }
+            default:
+                throw new java.lang.IllegalStateException("Unexpected value: " + op);
         }
-        return 0;
     }
     public static void main(String[] args) {
         program.sysinfo();
@@ -65,6 +66,8 @@ public class program {
                   case 3: {
                     return;
                   }
+                  default:
+                      throw new java.lang.IllegalStateException("Unexpected value: " + op);
               }
           }
         }
