@@ -6,14 +6,16 @@
 [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.png?v=103)](https://opensource.org/licenses/GPL-3.0/)
 # 欢迎使用Java-Toolkit！
 
+这是一个由Java编写的跨平台工具箱。其实并不是我做了什么兼容，Java本身就跨平台……它是[Sinetian's Toolkit](https://github.com/SInetian/Toolkit)的第二代。我使用GPL v3，可以在[这里](https://github.com/Sinetian/Java-Toolkit/blob/main/LICENSE)查看。
+
 ---
-这是一个由Java编写的跨平台工具箱。它是[Sinetian's Toolkit](https://github.com/SInetian/Toolkit)的第二代。我使用GPL v3，可以在[这里](https://github.com/Sinetian/Java-Toolkit/blob/main/LICENSE)查看。
+
 </div>
 
 ## 介绍
 
-自从2022年开始，我就一直在做一个被称作Sinetian's Toolkit的项目。但是，由于我在那个项目上使用了C++，这种语言的兼容性让我无法忍受。于是，我就另起炉灶，使用Java编写了这一版工具箱。这一版接下了上一代的接力棒，继续使用原来的结构。
-尽管我不提供构建，但是我最近一直在考虑使用WiKi或Releases Notes的形式宣布更新。
+自从2022年开始，我就一直在做Sinetian's Toolkit这个项目。但是，由于我在那个项目上使用了C++，这种语言的兼容性让我无法忍受。于是，我就另起炉灶，使用Java编写了这一版工具箱。这一版接下了上一代的接力棒，继续使用原来的结构。
+尽管我不提供构建，但是我最近一直在考虑使用WiKi或Releases Notes的形式宣布更新。请静待消息！
 
 ## 构建
 
