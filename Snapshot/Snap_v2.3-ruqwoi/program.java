@@ -35,7 +35,7 @@ public class program {
                 return x % y;
             }
             default:
-                throw new java.lang.IllegalStateException("Unexpected value: " + op);
+                throw new java.lang.IllegalStateException("计算器：未知输入：" + op);
         }
     }
     public static void main(String[] args) {
@@ -69,7 +69,7 @@ public class program {
                     return;
                   }
                   default: {
-                      throw new java.lang.IllegalStateException("Unexpected value: " + op);
+                      throw new java.lang.IllegalStateException("主程序：未知输入：" + op);
                   }
               }
           }
