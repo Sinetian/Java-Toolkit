@@ -13,8 +13,6 @@ public class program {
         System.out.println("*** 构建时间：2023/1/7 ***");
         System.out.println("************************");
         System.out.println("版本：Snapshot v2.3-ruqwoi");
-        System.out.println("这是Java-Toolkit的初代版本。 \n" +
-                " 如果你愿意看看我的代码，你一定会承认Java的开发难度比C++高。");
         return;
     }
     public static double cal(Double x , Double y , String op) {
