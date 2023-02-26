@@ -51,9 +51,9 @@ public class program {
                     System.out.println("计算器使用注意事项：在做减法以及除法时，请确保第一个数比后面的大。");
                     System.out.println("运算符：+（加）-（减）*（乘）/（除）%（求余）");
                     System.out.print("请输入第一个数字：");
-                    x = (double) scanner.nextInt();
+                    x = scanner.nextDouble();
                     System.out.print("请输入第二个数字：");
-                    y = (double) scanner.nextInt();
+                    y = scanner.nextDouble();
                     System.out.print("请输入运算：");
                     calu = scanner.nextLine();//Known bug
                     System.out.println(program.cal(x , y , calu));
